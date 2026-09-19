@@ -1,10 +1,16 @@
 # Eduardo Lafaiety
 
-`Backend Developer`
+`Software Enginner`
 
-Estudante de **Análise e Desenvolvimento de Sistemas**, com foco em desenvolvimento backend, APIs, bancos de dados e arquitetura de software.
+Estudante de **Análise e Desenvolvimento de Sistemas**
 
-Atualmente aprofundando meus estudos em **Java, Spring Boot, APIs REST, microsserviços, cloud e DevOps**.
+`Olá, meu nome é Eduardo. Sou desenvolvedor de software com foco no ecossistema Java e no desenvolvimento de aplicações backend.
+
+Tenho direcionado meus estudos e projetos para a construção de APIs REST, aplicações baseadas em arquitetura de microsserviços, modelagem e persistência de dados e boas práticas de arquitetura de software.
+
+Também venho aprofundando meus conhecimentos em cloud, conteinerização, automação de deploy e orquestração de aplicações, buscando entender todo o ciclo de uma aplicação — do desenvolvimento e integração com banco de dados até sua execução em ambientes distribuídos.
+
+Atualmente, meu principal foco é evoluir no ecossistema Java e Spring, construindo projetos que me permitam aplicar conceitos de backend, bancos de dados, microsserviços, infraestrutura e engenharia de software.`
 
 ---
 
