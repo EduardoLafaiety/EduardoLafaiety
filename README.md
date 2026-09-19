@@ -4,17 +4,17 @@
 
 Estudante de **Análise e Desenvolvimento de Sistemas**
 
-` Olá, meu nome é Eduardo. Sou desenvolvedor de software com foco no ecossistema Java e no desenvolvimento de aplicações backend.
+`Olá, meu nome é Eduardo. Sou desenvolvedor de software com foco no ecossistema Java e no desenvolvimento de aplicações backend.`
 
-Tenho direcionado meus estudos e projetos para a construção de APIs REST, aplicações baseadas em arquitetura de microsserviços, modelagem e persistência de dados e boas práticas de arquitetura de software.
+`Tenho direcionado meus estudos e projetos para a construção de APIs REST, aplicações baseadas em arquitetura de microsserviços, modelagem e persistência de dados e boas práticas de arquitetura de software.`
 
-Também venho aprofundando meus conhecimentos em cloud, conteinerização, automação de deploy e orquestração de aplicações, buscando entender todo o ciclo de uma aplicação — do desenvolvimento e integração com banco de dados até sua execução em ambientes distribuídos.
+`Também venho aprofundando meus conhecimentos em cloud, conteinerização, automação de deploy e orquestração de aplicações, buscando entender todo o ciclo de uma aplicação — do desenvolvimento e integração com banco de dados até sua execução em ambientes distribuídos.`
 
-Atualmente, meu principal foco é evoluir no ecossistema Java e Spring, construindo projetos que me permitam aplicar conceitos de backend, bancos de dados, microsserviços, infraestrutura e engenharia de software. `
+`Atualmente, meu principal foco é evoluir no ecossistema Java e Spring, construindo projetos que me permitam aplicar conceitos de backend, bancos de dados, microsserviços, infraestrutura e engenharia de software.`
 
 ---
 
-## 🧰 Languages and Tools
+## 🧰 `Languages and Tools`
 
 <p align="left">
   <img alt="Java" title="Java" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />&nbsp;&nbsp;
@@ -30,9 +30,9 @@ Atualmente, meu principal foco é evoluir no ecossistema Java e Spring, construi
 
 ---
 
-## Atualmente estudando
+## `Atualmente Estudando`
 
-`Java` · `Spring Boot` · `APIs REST` · `PostgreSQL` · `Microsserviços` · `AWS` · `Kubernetes`
+`Java` · `Spring Boot` · `Api's Rest` · `PostgreSql` · `MicrosServiços` · `Aws` · `Kubernetes`
 
 ---
 
