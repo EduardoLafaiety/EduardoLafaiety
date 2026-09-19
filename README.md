@@ -2,7 +2,7 @@
 
 `Software Enginner`
 
-`Olá, meu nome é Eduardo. Sou Desenvolvedor de Software com Foco no Ecossistema Java e no Desenvolvimento de Aplicações Backend.`
+`Olá, Meu Nome é Eduardo. Sou Desenvolvedor de Software com Foco no Ecossistema Java e no Desenvolvimento de Aplicações Backend.`
 
 `Tenho Direcionado Meus Estudos e Projetos para a Construção de Api's Rest, Aplicações Baseadas em Arquitetura de MicrosServiços, Modelagem e Persistência de Dados e Boas Práticas de Arquitetura de Software.`
 
