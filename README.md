@@ -2,18 +2,17 @@
 
 `Software Enginner`
 
-`
 
-Olá, Meu Nome é Eduardo. Sou Desenvolvedor de Software com Foco no Ecossistema Java e no Desenvolvimento de Aplicações Backend.`
-`
+Olá, Meu Nome é Eduardo. Sou Desenvolvedor de Software com Foco no Ecossistema Java e no Desenvolvimento de Aplicações Backend.
 
-Tenho Direcionado Meus Estudos e Projetos para a Construção de Api's Rest, Aplicações Baseadas em Arquitetura de MicrosServiços, Modelagem e Persistência de Dados e Boas Práticas de Arquitetura de Software.`
-`
 
-Também Venho Aprofundando Meus Conhecimentos em Cloud, Conteinerização, Automação de Deploy e Orquestração de Aplicações, Buscando Entender Todo o Ciclo de Uma Aplicação, do Desenvolvimento e Integração com Banco de Dados Até sua Execução em Ambientes Distribuídos.`
-`
+Tenho Direcionado Meus Estudos e Projetos para a Construção de Api's Rest, Aplicações Baseadas em Arquitetura de MicrosServiços, Modelagem e Persistência de Dados e Boas Práticas de Arquitetura de Software.
 
-Atualmente, meu Principal Foco é Evoluir no Ecossistema Java e Spring, Construindo Projetos que me Permitam Aplicar Conceitos de Backend, Bancos de Dados, MicrosServiços, Infraestrutura e Engenharia de Software.`
+
+Também Venho Aprofundando Meus Conhecimentos em Cloud, Conteinerização, Automação de Deploy e Orquestração de Aplicações, Buscando Entender Todo o Ciclo de Uma Aplicação, do Desenvolvimento e Integração com Banco de Dados Até sua Execução em Ambientes Distribuídos.
+
+
+Atualmente, meu Principal Foco é Evoluir no Ecossistema Java e Spring, Construindo Projetos que me Permitam Aplicar Conceitos de Backend, Bancos de Dados, MicrosServiços, Infraestrutura e Engenharia de Software.
 
 ---
 
