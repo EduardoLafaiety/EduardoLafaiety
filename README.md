@@ -3,7 +3,13 @@
 `Software Enginner`
 
 
-ᴏʟá, ᴍᴇᴜ ɴᴏᴍᴇ é ᴇᴅᴜᴀʀᴅᴏ. ꜱᴏᴜ ᴅᴇꜱᴇɴᴠᴏʟᴠᴇᴅᴏʀ ᴅᴇ ꜱᴏꜰᴛᴡᴀʀᴇ ᴄᴏᴍ ꜰᴏᴄᴏ ɴᴏ ᴇᴄᴏꜱꜱɪꜱᴛᴇᴍᴀ ᴊᴀᴠᴀ ᴇ ɴᴏ ᴅᴇꜱᴇɴᴠᴏʟᴠɪᴍᴇɴᴛᴏ ᴅᴇ ᴀᴘʟɪᴄᴀçõᴇꜱ ʙᴀᴄᴋᴇɴᴅ.ᴛᴇɴʜᴏ ᴅɪʀᴇᴄɪᴏɴᴀᴅᴏ ᴍᴇᴜꜱ ᴇꜱᴛᴜᴅᴏꜱ ᴇ ᴘʀᴏᴊᴇᴛᴏꜱ ᴘᴀʀᴀ ᴀ ᴄᴏɴꜱᴛʀᴜçãᴏ ᴅᴇ ᴀᴘɪ'ꜱ ʀᴇꜱᴛ, ᴀᴘʟɪᴄᴀçõᴇꜱ ʙᴀꜱᴇᴀᴅᴀꜱ ᴇᴍ ᴀʀǫᴜɪᴛᴇᴛᴜʀᴀ ᴅᴇ ᴍɪᴄʀᴏꜱꜱᴇʀᴠɪçᴏꜱ, ᴍᴏᴅᴇʟᴀɢᴇᴍ ᴇ ᴘᴇʀꜱɪꜱᴛêɴᴄɪᴀ ᴅᴇ ᴅᴀᴅᴏꜱ ᴇ ʙᴏᴀꜱ ᴘʀáᴛɪᴄᴀꜱ ᴅᴇ ᴀʀǫᴜɪᴛᴇᴛᴜʀᴀ ᴅᴇ ꜱᴏꜰᴛᴡᴀʀᴇ.ᴛᴀᴍʙéᴍ ᴠᴇɴʜᴏ ᴀᴘʀᴏꜰᴜɴᴅᴀɴᴅᴏ ᴍᴇᴜꜱ ᴄᴏɴʜᴇᴄɪᴍᴇɴᴛᴏꜱ ᴇᴍ ᴄʟᴏᴜᴅ, ᴄᴏɴᴛᴇɪɴᴇʀɪᴢᴀçãᴏ, ᴀᴜᴛᴏᴍᴀçãᴏ ᴅᴇ ᴅᴇᴘʟᴏʏ ᴇ ᴏʀǫᴜᴇꜱᴛʀᴀçãᴏ ᴅᴇ ᴀᴘʟɪᴄᴀçõᴇꜱ, ʙᴜꜱᴄᴀɴᴅᴏ ᴇɴᴛᴇɴᴅᴇʀ ᴛᴏᴅᴏ ᴏ ᴄɪᴄʟᴏ ᴅᴇ ᴜᴍᴀ ᴀᴘʟɪᴄᴀçãᴏ, ᴅᴏ ᴅᴇꜱᴇɴᴠᴏʟᴠɪᴍᴇɴᴛᴏ ᴇ ɪɴᴛᴇɢʀᴀçãᴏ ᴄᴏᴍ ʙᴀɴᴄᴏ ᴅᴇ ᴅᴀᴅᴏꜱ ᴀᴛé ꜱᴜᴀ ᴇxᴇᴄᴜçãᴏ ᴇᴍ ᴀᴍʙɪᴇɴᴛᴇꜱ ᴅɪꜱᴛʀɪʙᴜíᴅᴏꜱ.ᴀᴛᴜᴀʟᴍᴇɴᴛᴇ, ᴍᴇᴜ ᴘʀɪɴᴄɪᴘᴀʟ ꜰᴏᴄᴏ é ᴇᴠᴏʟᴜɪʀ ɴᴏ ᴇᴄᴏꜱꜱɪꜱᴛᴇᴍᴀ ᴊᴀᴠᴀ ᴇ ꜱᴘʀɪɴɢ, ᴄᴏɴꜱᴛʀᴜɪɴᴅᴏ ᴘʀᴏᴊᴇᴛᴏꜱ ǫᴜᴇ ᴍᴇ ᴘᴇʀᴍɪᴛᴀᴍ ᴀᴘʟɪᴄᴀʀ ᴄᴏɴᴄᴇɪᴛᴏꜱ ᴅᴇ ʙᴀᴄᴋᴇɴᴅ, ʙᴀɴᴄᴏꜱ ᴅᴇ ᴅᴀᴅᴏꜱ, ᴍɪᴄʀᴏꜱꜱᴇʀᴠɪçᴏꜱ, ɪɴꜰʀᴀᴇꜱᴛʀᴜᴛᴜʀᴀ ᴇ ᴇɴɢᴇɴʜᴀʀɪᴀ ᴅᴇ ꜱᴏꜰᴛᴡᴀʀᴇ.
+Olá, Meu Nome é Eduardo. Sou `Desenvolvedor de Software` com Foco no Ecossistema `Java` e no Desenvolvimento de Aplicações `Backend`.
+
+Tenho Direcionado Meus Estudos e Projetos para a Construção de `Api's Rest`, Aplicações Baseadas em `Arquitetura de MicrosServiços`, `Modelagem e Persistência de Dados e Boas Práticas de Arquitetura de Software`.
+
+Também Venho Aprofundando Meus Conhecimentos em Cloud, Conteinerização, Automação de Deploy e Orquestração de Aplicações, Buscando Entender Todo o Ciclo de Uma Aplicação, do Desenvolvimento e Integração com Banco de Dados Até sua Execução em Ambientes Distribuídos.
+
+Atualmente, meu Principal Foco é Evoluir no Ecossistema `Java` e `Spring`, Construindo Projetos que me Permitam Aplicar `Conceitos de Backend`, `Bancos de Dados`, `MicrosServiços`, `Infraestrutura e Engenharia de Software`.
 
 ---
 
