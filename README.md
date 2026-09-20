@@ -29,12 +29,9 @@ Atualmente, meu Principal Foco é Evoluir no Ecossistema `Java` e `Spring`, Cons
   <img alt="Terraform" title="Terraform" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" />&nbsp;&nbsp;
   <img alt="Linux" title="Linux" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />&nbsp;&nbsp;
   <img alt="Apache Kafka" title="Apache Kafka" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachekafka/apachekafka-original.svg" />&nbsp;&nbsp;
-  <img alt="Python" title="Python" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />&nbsp;&nbsp;
   <img alt="Git" title="Git" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />&nbsp;&nbsp;
   <img alt="GitHub" title="GitHub" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />&nbsp;&nbsp;
-  <img alt="GitHub Actions" title="CI/CD - GitHub Actions" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" />&nbsp;&nbsp;
   <img alt="Postman" title="Postman" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />&nbsp;&nbsp;
-  <img alt="IntelliJ IDEA" title="IntelliJ IDEA" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" />
 </p>
 
 ## `Atualmente Estudando`
