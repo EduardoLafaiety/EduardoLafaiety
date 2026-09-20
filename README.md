@@ -34,10 +34,6 @@ Atualmente, meu Principal Foco é Evoluir no Ecossistema `Java` e `Spring`, Cons
   <img alt="Postman" title="Postman" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />&nbsp;&nbsp;
 </p>
 
-## `Atualmente Estudando`
-
-`Java` · `Spring Boot` · `Api's Rest` · `PostgreSql` · `MicrosServiços` · `Aws` · `Kubernetes`
-
 ---
 
 ## 📫 Contato
