@@ -20,14 +20,15 @@ const NAME = [
 ];
 
 // ───────────────────────── braille art: coffee cup ─────────────────────────
-function cupBraille() {
-  const W = 76, H = 88;
+function cupBraille(k = 0.75) {
+  // k scales the whole drawing; geometry below is authored at k = 1 (76x88 dots).
+  const W = Math.ceil(76 * k), H = Math.ceil(88 * k);
   const px = Array.from({ length: H }, () => new Array(W).fill(0));
   const set = (x, y, v = 1) => { if (x >= 0 && y >= 0 && x < W && y < H) px[y][x] = v; };
 
   // Draws shapes back-to-front: each shape erases what's behind it, then draws its outline.
   function shape(inside, fillFn) {
-    const m = (x, y) => x >= 0 && y >= 0 && x < W && y < H && inside(x, y);
+    const m = (x, y) => x >= 0 && y >= 0 && x < W && y < H && inside(x / k, y / k);
     for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) {
       if (!m(x, y)) continue;
       const edge = !m(x - 1, y) || !m(x + 1, y) || !m(x, y - 1) || !m(x, y + 1);
@@ -54,13 +55,13 @@ function cupBraille() {
 
   // steam
   [CX - 10, CX, CX + 10].forEach((cx, i) => {
-    for (let y = 4 + i * 2; y < 26; y++) {
-      const x = Math.round(cx + 3 * Math.sin(y / 4 + i * 2));
+    for (let y = Math.round((4 + i * 2) * k); y < 26 * k; y++) {
+      const x = Math.round(k * (cx + 3 * Math.sin(y / k / 4 + i * 2)));
       set(x, y); set(x + 1, y);
     }
   });
 
-  // "</>" on the body (5x7 glyphs at 2x)
+  // "</>" on the body (5x7 glyphs, scaled with the drawing)
   const G = {
     '<': ['...#.', '..#..', '.#...', '#....', '.#...', '..#..', '...#.'],
     '/': ['....#', '...#.', '...#.', '..#..', '.#...', '.#...', '#....'],
@@ -69,7 +70,7 @@ function cupBraille() {
   ['<', '/', '>'].forEach((ch, i) => G[ch].forEach((row, r) =>
     [...row].forEach((c, col) => {
       if (c !== '#') return;
-      const x = CX - 17 + (i * 6 + col) * 2, y = 45 + r * 2;
+      const x = Math.round(k * (CX - 17 + (i * 6 + col) * 2)), y = Math.round(k * (45 + r * 2));
       set(x, y); set(x + 1, y); set(x, y + 1); set(x + 1, y + 1);
     })));
 
@@ -454,7 +455,7 @@ function box(title, body, inner = 66) {
 function hero() {
   const art = cupBraille();
   const nameTop = Math.floor((art.length - NAME.length) / 2) + 1;
-  const w = NAME[0].length + 4;
+  const w = NAME[0].length + 2;
   return art.map((a, i) => {
     const n = NAME[i - nameTop] ?? '';
     return (n.padEnd(w) + a).replace(/\s+$/, '');
