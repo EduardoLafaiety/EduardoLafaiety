@@ -19,62 +19,28 @@ const NAME = [
   "o888ooooood8 `Y8bod88P\"  `V88V\"V8P' `Y888\"\"8o d888b    `Y8bod88P\" `Y8bod8P' "
 ];
 
-// ───────────────────────── braille art: coffee cup ─────────────────────────
-function cupBraille(k = 0.75) {
-  // k scales the whole drawing; geometry below is authored at k = 1 (76x88 dots).
-  const W = Math.ceil(76 * k), H = Math.ceil(88 * k);
-  const px = Array.from({ length: H }, () => new Array(W).fill(0));
-  const set = (x, y, v = 1) => { if (x >= 0 && y >= 0 && x < W && y < H) px[y][x] = v; };
-
-  // Draws shapes back-to-front: each shape erases what's behind it, then draws its outline.
-  function shape(inside, fillFn) {
-    const m = (x, y) => x >= 0 && y >= 0 && x < W && y < H && inside(x / k, y / k);
-    for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) {
-      if (!m(x, y)) continue;
-      const edge = !m(x - 1, y) || !m(x + 1, y) || !m(x, y - 1) || !m(x, y + 1);
-      set(x, y, edge ? 1 : fillFn ? fillFn(x, y) : 0);
-    }
-  }
-  const ell = (cx, cy, rx, ry) => (x, y) => ((x - cx) / rx) ** 2 + ((y - cy) / ry) ** 2 <= 1;
-
-  const CX = 34;
-  shape(ell(CX, 75, 33, 7));                      // saucer
-  shape(ell(CX, 75, 24, 4));                      // saucer well
-  shape((x, y) => {                               // handle (ring, right side only)
-    const d = Math.hypot(x - 56, y - 52);
-    return x > 52 && d <= 12 && d >= 6.5;
-  });
-  shape((x, y) => {                               // cup body
-    if (y < 34 || y > 74) return false;
-    let w = 22 - (y - 34) * 0.12;
-    if (y > 64) w -= (y - 64) ** 2 * 0.22;
-    return Math.abs(x - CX) <= w;
-  });
-  shape(ell(CX, 34, 22, 5));                      // rim
-  shape(ell(CX, 34.5, 18, 3), (x, y) => (x + y) % 2); // coffee, dithered
-
-  // steam
-  [CX - 10, CX, CX + 10].forEach((cx, i) => {
-    for (let y = Math.round((4 + i * 2) * k); y < 26 * k; y++) {
-      const x = Math.round(k * (cx + 3 * Math.sin(y / k / 4 + i * 2)));
-      set(x, y); set(x + 1, y);
-    }
-  });
-
-  // "</>" on the body (5x7 glyphs, scaled with the drawing)
-  const G = {
-    '<': ['...#.', '..#..', '.#...', '#....', '.#...', '..#..', '...#.'],
-    '/': ['....#', '...#.', '...#.', '..#..', '.#...', '.#...', '#....'],
-    '>': ['.#...', '..#..', '...#.', '....#', '...#.', '..#..', '.#...'],
+// ───────────────────────── braille art: </> ─────────────────────────
+function codeBraille() {
+  const W = 60, H = 60, R = 4;
+  // Thick strokes as capsules (segment + radius).
+  const strokes = [
+    [[14, 12], [4, 30]], [[4, 30], [14, 48]],    // <
+    [[35, 6], [25, 54]],                         // /
+    [[45, 12], [55, 30]], [[55, 30], [45, 48]],  // >
+  ];
+  const dist = (px, py, [ax, ay], [bx, by]) => {
+    const dx = bx - ax, dy = by - ay;
+    const t = Math.max(0, Math.min(1, ((px - ax) * dx + (py - ay) * dy) / (dx * dx + dy * dy)));
+    return Math.hypot(px - ax - t * dx, py - ay - t * dy);
   };
-  ['<', '/', '>'].forEach((ch, i) => G[ch].forEach((row, r) =>
-    [...row].forEach((c, col) => {
-      if (c !== '#') return;
-      const x = Math.round(k * (CX - 17 + (i * 6 + col) * 2)), y = Math.round(k * (45 + r * 2));
-      set(x, y); set(x + 1, y); set(x, y + 1); set(x + 1, y + 1);
-    })));
+  const inside = (x, y) => x >= 0 && y >= 0 && x < W && y < H && strokes.some(([a, b]) => dist(x, y, a, b) <= R);
+  // Outline + dotted fill, same look as the rest of the art.
+  const on = (x, y) => {
+    if (!inside(x, y)) return false;
+    const edge = !inside(x - 1, y) || !inside(x + 1, y) || !inside(x, y - 1) || !inside(x, y + 1);
+    return edge || (x % 2 === 0 && y % 2 === 0);
+  };
 
-  // pack into braille cells
   const bits = [[0x01, 0x08], [0x02, 0x10], [0x04, 0x20], [0x40, 0x80]];
   const lines = [];
   for (let cy = 0; cy < H; cy += 4) {
@@ -82,7 +48,7 @@ function cupBraille(k = 0.75) {
     for (let cx = 0; cx < W; cx += 2) {
       let b = 0;
       for (let dy = 0; dy < 4; dy++) for (let dx = 0; dx < 2; dx++)
-        if (px[cy + dy]?.[cx + dx]) b |= bits[dy][dx];
+        if (on(cx + dx, cy + dy)) b |= bits[dy][dx];
       line += String.fromCharCode(0x2800 + b);
     }
     lines.push(line.replace(/\u2800+$/, ''));
@@ -453,7 +419,7 @@ function box(title, body, inner = 66) {
 }
 
 function hero() {
-  const art = cupBraille();
+  const art = codeBraille();
   const nameTop = Math.floor((art.length - NAME.length) / 2) + 1;
   const w = NAME[0].length + 2;
   return art.map((a, i) => {

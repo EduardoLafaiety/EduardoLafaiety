@@ -1,33 +1,32 @@
 ```text
-                                                                              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀
-                                                                              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⢀⡶⠀⠀⠀⢤⡀
-                                                                              ⠀⠀⠀⠀⠀⠀⠀⠀⢀⡾⠁⠘⣧⠀⠀⠀⠀⢻⡄
-                                                                              ⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠈⢷⡀⠀⠀⣸⠇
-                                                                              ⠀⠀⠀⠀⠀⠀⠀⠀⠹⣆⠀⠀⠀⢈⡷⢀⡾⠁
-oooooooooooo       .o8                                       .o8              ⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⠤⠤⠤⠤⠤⠤⣀⣀⣀
-`888'     `8      "888                                      "888              ⠀⠀⠀⠀⠀⣎⣩⣲⣲⣪⣫⡫⡫⡫⡫⣫⣳⣲⣲⣍⣱
- 888          .oooo888  oooo  oooo   .oooo.   oooo d8b  .oooo888   .ooooo.    ⠀⠀⠀⠀⠀⡇⠀⠉⠉⠉⠒⠛⠛⠛⠛⠒⠉⠉⠉⠀⢸⢄⣀⡀
- 888oooo8    d88' `888  `888  `888  `P  )88b  `888""8P d88' `888  d88' `88b   ⠀⠀⠀⠀⠀⢣⠀⠀⣠⡄⠀⠀⠀⣀⣤⠀⣤⣀⠀⠀⡼⠤⢄⠈⠢⡀
- 888    "    888   888   888   888   .oP"888   888     888   888  888   888   ⠀⠀⠀⠀⠀⢸⢠⡶⠉⠀⠀⠀⢠⡿⠀⠀⠀⠹⢦⡄⡇⠀⠀⢱⠀⢇
- 888       o 888   888   888   888  d8(  888   888     888   888  888   888   ⠀⠀⠀⠀⠀⠸⡀⠛⢶⡀⠀⣸⠇⠀⠀⠀⣀⠾⠃⢀⠇⠀⢀⠜⠀⡇
-o888ooooood8 `Y8bod88P"  `V88V"V8P' `Y888""8o d888b    `Y8bod88P" `Y8bod8P'   ⠀⠀⠀⠀⠀⠀⡇⠀⠈⠁⠀⠉⠀⠀⠀⠀⠉⠀⠀⢸⣏⢉⣁⡠⠊
-                                                                              ⠀⠀⠀⠀⠀⠀⠑⢄⡀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠊⠀⠁
-                                                                              ⠀⣀⠤⠔⠒⣊⣉⠭⠭⠭⠶⠦⠤⠤⠴⠶⠭⠭⠭⣉⣑⠒⠢⠤⣀
-                                                                              ⠈⠢⢄⣀⡙⠢⠤⠤⠤⢄⣀⣀⣀⣀⣀⣀⡠⠤⠤⠤⠔⢋⣀⡠⠔⠁
-                                                                              ⠀⠀⠀⠀⠈⠉⠉⠑⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠊⠉⠉⠁
+                                                                              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⣀
+                                                                              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠇⠅⠅⡧
+                                                                              ⠀⠀⠀⠀⠀⡠⠖⠕⢦⠀⠀⠀⠀⠀⠀⡸⠅⠅⠅⡇⠀⡔⠎⠖⢄
+                                                                              ⠀⠀⠀⠀⡰⠅⠅⠅⡵⠁⠀⠀⠀⠀⠀⡇⠅⠅⢽⠀⠈⢇⠅⠅⠍⢆
+                                                                              ⠀⠀⠀⡰⠅⠅⠅⡵⠁⠀⠀⠀⠀⠀⢸⠅⠅⠅⡏⠀⠀⠈⢇⠅⠅⠍⢆
+oooooooooooo       .o8                                       .o8              ⠀⠀⡜⠅⠅⠅⡵⠁⠀⠀⠀⠀⠀⠀⡇⠅⠅⢵⠁⠀⠀⠀⠈⢇⠅⠅⠅⢧
+`888'     `8      "888                                      "888              ⠀⡜⠅⠅⠅⡝⠀⠀⠀⠀⠀⠀⠀⢰⠅⠅⠅⡝⠀⠀⠀⠀⠀⠀⢣⠅⠅⠅⢧
+ 888          .oooo888  oooo  oooo   .oooo.   oooo d8b  .oooo888   .ooooo.    ⢜⠅⠅⠅⢝⠀⠀⠀⠀⠀⠀⠀⠀⡜⠅⠅⢅⠇⠀⠀⠀⠀⠀⠀⠀⡣⠅⠅⠅⡧
+ 888oooo8    d88' `888  `888  `888  `P  )88b  `888""8P d88' `888  d88' `88b   ⠈⢇⠅⠅⠍⢆⠀⠀⠀⠀⠀⠀⢀⠇⠅⠅⢽⠀⠀⠀⠀⠀⠀⠀⡰⠅⠅⠅⡵⠁
+ 888    "    888   888   888   888   .oP"888   888     888   888  888   888   ⠀⠈⢇⠅⠅⠍⢦⠀⠀⠀⠀⠀⢸⠅⠅⠅⡇⠀⠀⠀⠀⠀⠀⡔⠅⠅⠅⡵⠁
+ 888       o 888   888   888   888  d8(  888   888     888   888  888   888   ⠀⠀⠈⢣⠅⠅⠅⢧⠀⠀⠀⠀⡇⠅⠅⢵⠁⠀⠀⠀⠀⠀⡜⠅⠅⠅⡕⠁
+o888ooooood8 `Y8bod88P"  `V88V"V8P' `Y888""8o d888b    `Y8bod88P" `Y8bod8P'   ⠀⠀⠀⠀⢣⠅⠅⠅⢧⠀⠀⢸⠅⠅⠅⡏⠀⠀⠀⠀⠀⡜⠅⠅⠅⡝
+                                                                              ⠀⠀⠀⠀⠀⠣⣅⢅⡵⠁⠀⡎⠅⠅⢥⠃⠀⠀⠀⠀⠈⢇⡅⣅⠝
+                                                                              ⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠠⡇⠅⠅⡽⠀⠀⠀⠀⠀⠀⠀⠈
+                                                                              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠣⠓⠁
 
 .------------------------------------------------------------------.
-| (x) (-) (+)               ~/About.Txt                            |
+| (x) (-) (+)               ~/about.txt                            |
 |------------------------------------------------------------------|
 |                                                                  |
-| Software Engineer Focado no Ecossistema Java e em Backend,       |
-| Direto do Brasil.                                                |
+| Software Engineer focado no ecossistema Java e em backend,       |
+| direto do Brasil.                                                |
 |                                                                  |
-| Microsserviços e Tudo que Envolve                                |
-| Modelagem de Dados, Arquitetura e Boas Práticas.                 |
+| Construo APIs REST, microsserviços e tudo que envolve            |
+| modelagem de dados, arquitetura e boas práticas.                 |
 |                                                                  |
-| Hoje Mergulhando em Cloud, Containers, Automação de Deploy       |
-| e Orquestração: do Commit Até a Produção.                        |
+| Hoje mergulhando em Cloud, containers, automação de deploy       |
+| e orquestração: do commit até a produção.                        |
 | -@EduardoLafaiety                                                |
 |                                                                  |
 '------------------------------------------------------------------'
@@ -51,12 +50,12 @@ o888ooooood8 `Y8bod88P"  `V88V"V8P' `Y888""8o d888b    `Y8bod88P" `Y8bod8P'   �
 <img src="./assets/h-focus.svg" alt="02 NOW BUILDING"/>
 
 ```text
-Eduardo@Lafaiety ~ % Cat Focus.Log
-[ Main  ]  Java + Spring Boot
-[ Build ]  Arquitetura de Microsserviços
-[ Data  ]  Modelagem e Persistência de Dados
-[ Cloud ]  Docker · Kubernetes · Amazon Web Service · Terraform
-[ Next  ]  Automação de Deploy & Orquestração
+eduardo@lafaiety ~ % cat focus.log
+[ main  ]  Java + Spring Boot
+[ build ]  APIs REST & arquitetura de microsserviços
+[ data  ]  Modelagem e persistência de dados
+[ cloud ]  Docker · Kubernetes · AWS · Terraform
+[ next  ]  Automação de deploy & orquestração
 ```
 
 <img src="./assets/h-contact.svg" alt="03 CONTACT"/>
@@ -66,9 +65,9 @@ Eduardo@Lafaiety ~ % Cat Focus.Log
 <a href="mailto:deveducontato@gmail.com"><img src="./assets/icons/email.svg" width="48" height="48" alt="Email" title="Email"/></a>
 
 ```text
-Eduardo@Lafaiety ~ % Exit
-Logout
-Saving Session Completed.
+eduardo@lafaiety ~ % exit
+logout
+Saving session...completed.
 
-[Process Completed]█
+[Process completed]█
 ```
