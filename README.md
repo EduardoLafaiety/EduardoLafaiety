@@ -1,43 +1,78 @@
-# Eduardo Lopes
- 
-`Software Enginner`
+```text
+                                                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⣠⠄
+                                                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡾⠁⢰⡏⠀⠀⠀⠀⠈⢳⡄
+                                                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠟⠀⠀⠘⣧⠀⠀⠀⠀⠀⠀⢻⡄
+                                                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⡏⠀⠀⠀⠀⠈⢳⡄⠀⠀⠀⠀⣼⠃
+                                                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣧⠀⠀⠀⠀⠀⠀⢻⡄⠀⢀⡼⠃
+                                                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠓⠀⠀⠀⠀⠀⠘⠃⠀⠛
+                                                                             ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡠⠤⠤⠤⠤⠤⠤⠢⠤⠤⠤⠤⠤⠤⣀⣀
+                .o8                                       .o8                ⠀⠀⠀⠀⠀⠀⢔⠉⢡⡴⡲⡲⡪⡫⡫⡫⡫⡫⡫⡫⡫⡫⡲⡲⡲⣤⠉⢑⠄
+               "888                                      "888                ⠀⠀⠀⠀⠀⠀⢸⠉⠑⠚⠫⠭⠽⠾⠾⠾⠾⡺⠾⠾⠾⠾⠭⠭⠛⠒⠉⢹
+ .ooooo.   .oooo888  oooo  oooo   .oooo.   oooo d8b  .oooo888   .ooooo.      ⠀⠀⠀⠀⠀⠀⠸⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡸⠑⠒⠢⢄
+d88' `88b d88' `888  `888  `888  `P  )88b  `888""8P d88' `888  d88' `88b     ⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⢀⡰⠆⠀⠀⠀⠀⢀⡰⠆⠀⠰⢆⡀⠀⠀⠀⡗⠒⠢⢄⠀⠑⡄
+888ooo888 888   888   888   888   .oP"888   888     888   888  888   888     ⠀⠀⠀⠀⠀⠀⠀⢇⢀⡰⠎⠁⠀⠀⠀⠀⢀⡸⠇⠀⠀⠀⠈⠱⢆⡀⢀⠇⠀⠀⠀⢣⠀⢸
+888    .o 888   888   888   888  d8(  888   888     888   888  888   888     ⠀⠀⠀⠀⠀⠀⠀⢸⠈⠱⢆⡀⠀⠀⠀⢰⡎⠁⠀⠀⠀⠀⢀⡰⠎⠁⢸⠀⠀⠀⠀⡸⠀⢰⠁
+`Y8bod8P' `Y8bod88P"  `V88V"V8P' `Y888""8o d888b    `Y8bod88P" `Y8bod8P'     ⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠈⠱⠆⠀⠰⠎⠁⠀⠀⠀⠀⠰⠎⠁⠀⠀⢸⣀⣀⡠⠔⠁⢀⠎
+                                                                             ⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣀⢀⣀⡠⠔⠁
+                                                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠣⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠃⠀⠁
+                                                                             ⠀⠀⠀⢀⣀⡠⠤⠤⠤⠒⠛⠒⠢⠤⣀⡀⠀⠀⠀⣀⡠⠤⠒⠚⠓⠢⠤⠤⠤⣀⣀
+                                                                             ⢀⠔⠊⠁⠀⡠⠤⠒⠒⠊⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠒⠒⠢⠤⡀⠀⠉⠒⢄
+                                                                             ⠀⠑⠢⢄⣀⡈⠉⠒⠒⠢⠤⠤⠤⠤⠤⠤⠤⡠⠤⠤⠤⠤⠤⠤⠤⠒⠒⠊⠉⣀⣀⠤⠒⠁
+                                                                             ⠀⠀⠀⠀⠀⠈⠉⠉⠉⠒⠒⠒⠒⠒⠒⠒⠒⠔⠒⠒⠒⠒⠒⠒⠒⠊⠉⠉⠉
 
+.------------------------------------------------------------------.
+| (x) (-) (+)               ~/about.txt                            |
+|------------------------------------------------------------------|
+|                                                                  |
+| Software Engineer focado no ecossistema Java e em backend,       |
+| direto do Brasil.                                                |
+|                                                                  |
+| Construo APIs REST, microsserviços e tudo que envolve            |
+| modelagem de dados, arquitetura e boas práticas.                 |
+|                                                                  |
+| Hoje mergulhando em Cloud, containers, automação de deploy       |
+| e orquestração: do commit até a produção.                        |
+| -@EduardoLafaiety                                                |
+|                                                                  |
+'------------------------------------------------------------------'
+```
 
-Olá, Meu Nome é Eduardo. Sou `Desenvolvedor de Software` com Foco no Ecossistema `Java` e no Desenvolvimento de Aplicações `Backend`.
+<img src="./assets/h-stack.svg" alt="01 STACK"/>
 
-Tenho Direcionado Meus Estudos e Projetos para a Construção de `Api's Rest`, Aplicações Baseadas em `Arquitetura de MicrosServiços`, `Modelagem e Persistência de Dados e Boas Práticas de Arquitetura de Software`.
+<img src="./assets/icons/java.svg" width="48" height="48" alt="Java" title="Java"/>&nbsp;
+<img src="./assets/icons/spring.svg" width="48" height="48" alt="Spring" title="Spring"/>&nbsp;
+<img src="./assets/icons/postgresql.svg" width="48" height="48" alt="PostgreSQL" title="PostgreSQL"/>&nbsp;
+<img src="./assets/icons/mysql.svg" width="48" height="48" alt="MySQL" title="MySQL"/>&nbsp;
+<img src="./assets/icons/redis.svg" width="48" height="48" alt="Redis" title="Redis"/>&nbsp;
+<img src="./assets/icons/docker.svg" width="48" height="48" alt="Docker" title="Docker"/>&nbsp;
+<img src="./assets/icons/kubernetes.svg" width="48" height="48" alt="Kubernetes" title="Kubernetes"/>&nbsp;
+<img src="./assets/icons/aws.svg" width="48" height="48" alt="AWS" title="AWS"/>&nbsp;
+<img src="./assets/icons/terraform.svg" width="48" height="48" alt="Terraform" title="Terraform"/>&nbsp;
+<img src="./assets/icons/linux.svg" width="48" height="48" alt="Linux" title="Linux"/>&nbsp;
+<img src="./assets/icons/kafka.svg" width="48" height="48" alt="Kafka" title="Kafka"/>&nbsp;
+<img src="./assets/icons/git.svg" width="48" height="48" alt="Git" title="Git"/>
 
-Também Venho Aprofundando Meus Conhecimentos em `Cloud`, Conteinerização, `Automação de Deploy e Orquestração de Aplicações`, Buscando Entender Todo o Ciclo de Uma Aplicação, do Desenvolvimento e `Integração com Banco de Dados` Até sua Execução em Ambientes Distribuídos.
+<img src="./assets/h-focus.svg" alt="02 NOW BUILDING"/>
 
-Atualmente, meu Principal Foco é Evoluir no Ecossistema `Java` e `Spring`, Construindo Projetos que me Permitam Aplicar `Conceitos de Backend`, `Bancos de Dados`, `MicrosServiços`, `Infraestrutura e Engenharia de Software`.
+```text
+eduardo@lafaiety ~ % cat focus.log
+[ main  ]  Java + Spring Boot
+[ build ]  APIs REST & arquitetura de microsserviços
+[ data  ]  Modelagem e persistência de dados
+[ cloud ]  Docker · Kubernetes · AWS · Terraform
+[ next  ]  Automação de deploy & orquestração
+```
 
----
+<img src="./assets/h-contact.svg" alt="03 CONTACT"/>
 
-## 🧰 Languages and Tools
+<a href="https://www.linkedin.com/in/eduardolafaiety/"><img src="./assets/icons/linkedin.svg" width="48" height="48" alt="LinkedIn" title="LinkedIn"/></a>&nbsp;
+<a href="https://github.com/EduardoLafaiety"><img src="./assets/icons/github.svg" width="48" height="48" alt="GitHub" title="GitHub"/></a>&nbsp;
+<a href="mailto:deveducontato@gmail.com"><img src="./assets/icons/email.svg" width="48" height="48" alt="Email" title="Email"/></a>
 
-<p align="left">
-  <img alt="Java" title="Java" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />&nbsp;&nbsp;
-  <img alt="Spring Boot" title="Spring Boot" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" />&nbsp;&nbsp;
-  <img alt="Maven" title="Maven" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg" />&nbsp;&nbsp;
-  <img alt="Hibernate" title="Hibernate" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hibernate/hibernate-original.svg" />&nbsp;&nbsp;
-  <img alt="PostgreSQL" title="PostgreSQL" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />&nbsp;&nbsp;
-  <img alt="MySQL" title="MySQL" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />&nbsp;&nbsp;
-  <img alt="Redis" title="Redis" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" />&nbsp;&nbsp;
-  <img alt="Docker" title="Docker" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />&nbsp;&nbsp;
-  <img alt="Kubernetes" title="Kubernetes" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg" />&nbsp;&nbsp;
-  <img alt="AWS" title="AWS" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />&nbsp;&nbsp;
-  <img alt="Terraform" title="Terraform" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" />&nbsp;&nbsp;
-  <img alt="Linux" title="Linux" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />&nbsp;&nbsp;
-  <img alt="Apache Kafka" title="Apache Kafka" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachekafka/apachekafka-original.svg" />&nbsp;&nbsp;
-  <img alt="Git" title="Git" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />&nbsp;&nbsp;
-  <img alt="GitHub" title="GitHub" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />&nbsp;&nbsp;
-  <img alt="Postman" title="Postman" width="42px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />&nbsp;&nbsp;
-</p>
+```text
+eduardo@lafaiety ~ % exit
+logout
+Saving session...completed.
 
----
-
-## 📫 Contato
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardolafaietylopes/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EduardoLafaiety)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:deveducontato@gmail.com)
+[Process completed]█
+```
