@@ -17,7 +17,7 @@ o888ooooood8 `Y8bod88P"  `V88V"V8P' `Y888""8o d888b    `Y8bod88P" `Y8bod8P'   �
                                                                               ⠀⠀⠀⠀⠈⠉⠉⠑⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠊⠉⠉⠁
 
 .------------------------------------------------------------------.
-| (x) (-) (+)               ~/about.txt                            |
+| (x) (-) (+)               ~/About.Txt                            |
 |------------------------------------------------------------------|
 |                                                                  |
 | Software Engineer Focado no Ecossistema Java e em Backend,       |
@@ -51,7 +51,7 @@ o888ooooood8 `Y8bod88P"  `V88V"V8P' `Y888""8o d888b    `Y8bod88P" `Y8bod8P'   �
 <img src="./assets/h-focus.svg" alt="02 NOW BUILDING"/>
 
 ```text
-eduardo@lafaiety ~ % cat focus.log
+Eduardo@Lafaiety ~ % Cat Focus.Log
 [ Main  ]  Java + Spring Boot
 [ Build ]  Arquitetura de Microsserviços
 [ Data  ]  Modelagem e Persistência de Dados
@@ -66,7 +66,7 @@ eduardo@lafaiety ~ % cat focus.log
 <a href="mailto:deveducontato@gmail.com"><img src="./assets/icons/email.svg" width="48" height="48" alt="Email" title="Email"/></a>
 
 ```text
-eduardo@lafaiety ~ % exit
+Eduardo@Lafaiety ~ % Exit
 Logout
 Saving Session Completed.
 
