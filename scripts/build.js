@@ -441,6 +441,9 @@ const SOCIAL = [
 
 const img = (id, alt) => `<img src="./assets/icons/${id}.svg" width="48" height="48" alt="${alt}" title="${alt}"/>`;
 
+// Capitalizes the first letter of every word (after spaces, brackets, dots).
+const titleCase = t => t.replace(/(^|[\s\[(.])(\p{Ll})/gu, (_, p, c) => p + c.toUpperCase());
+
 const ABOUT = [
   'Software Engineer focado no ecossistema Java e em backend,',
   'direto do Brasil.',
@@ -465,7 +468,7 @@ const FOCUS = [
 const README = `\`\`\`text
 ${hero()}
 
-${box('~/about.txt', ABOUT)}
+${box('~/about.txt', ABOUT.map(l => (l.startsWith('-@') ? l : titleCase(l))))}
 \`\`\`
 
 <img src="./assets/h-stack.svg" alt="01 STACK"/>
@@ -475,7 +478,7 @@ ${STACK.map(([id, alt]) => img(id, alt)).join('&nbsp;\n')}
 <img src="./assets/h-focus.svg" alt="02 NOW BUILDING"/>
 
 \`\`\`text
-${FOCUS.join('\n')}
+${[FOCUS[0], ...FOCUS.slice(1).map(titleCase)].join('\n')}
 \`\`\`
 
 <img src="./assets/h-contact.svg" alt="03 CONTACT"/>
@@ -484,10 +487,10 @@ ${SOCIAL.map(([id, alt, href]) => `<a href="${href}">${img(id, alt)}</a>`).join(
 
 \`\`\`text
 eduardo@lafaiety ~ % exit
-logout
-Saving session...completed.
+Logout
+Saving Session...Completed.
 
-[Process completed]█
+[Process Completed]█
 \`\`\`
 `;
 

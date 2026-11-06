@@ -19,14 +19,14 @@ o888ooooood8 `Y8bod88P"  `V88V"V8P' `Y888""8o d888b    `Y8bod88P" `Y8bod8P'   �
 | (x) (-) (+)               ~/about.txt                            |
 |------------------------------------------------------------------|
 |                                                                  |
-| Software Engineer focado no ecossistema Java e em backend,       |
-| direto do Brasil.                                                |
+| Software Engineer Focado No Ecossistema Java E Em Backend,       |
+| Direto Do Brasil.                                                |
 |                                                                  |
-| Construo APIs REST, microsserviços e tudo que envolve            |
-| modelagem de dados, arquitetura e boas práticas.                 |
+| Construo APIs REST, Microsserviços E Tudo Que Envolve            |
+| Modelagem De Dados, Arquitetura E Boas Práticas.                 |
 |                                                                  |
-| Hoje mergulhando em Cloud, containers, automação de deploy       |
-| e orquestração: do commit até a produção.                        |
+| Hoje Mergulhando Em Cloud, Containers, Automação De Deploy       |
+| E Orquestração: Do Commit Até A Produção.                        |
 | -@EduardoLafaiety                                                |
 |                                                                  |
 '------------------------------------------------------------------'
@@ -51,11 +51,11 @@ o888ooooood8 `Y8bod88P"  `V88V"V8P' `Y888""8o d888b    `Y8bod88P" `Y8bod8P'   �
 
 ```text
 eduardo@lafaiety ~ % cat focus.log
-[ main  ]  Java + Spring Boot
-[ build ]  APIs REST & arquitetura de microsserviços
-[ data  ]  Modelagem e persistência de dados
-[ cloud ]  Docker · Kubernetes · AWS · Terraform
-[ next  ]  Automação de deploy & orquestração
+[ Main  ]  Java + Spring Boot
+[ Build ]  APIs REST & Arquitetura De Microsserviços
+[ Data  ]  Modelagem E Persistência De Dados
+[ Cloud ]  Docker · Kubernetes · AWS · Terraform
+[ Next  ]  Automação De Deploy & Orquestração
 ```
 
 <img src="./assets/h-contact.svg" alt="03 CONTACT"/>
@@ -66,8 +66,8 @@ eduardo@lafaiety ~ % cat focus.log
 
 ```text
 eduardo@lafaiety ~ % exit
-logout
-Saving session...completed.
+Logout
+Saving Session...Completed.
 
-[Process completed]█
+[Process Completed]█
 ```
