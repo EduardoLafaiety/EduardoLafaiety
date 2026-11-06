@@ -16,13 +16,13 @@ o888ooooood8 `Y8bod88P"  `V88V"V8P' `Y888""8o d888b    `Y8bod88P" `Y8bod8P'   �
                                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠣⠓⠁
 
 .------------------------------------------------------------------.
-| (x) (-) (+)               ~/about.txt                            |
+| (x) (-) (+)               ~/About.Txt                            |
 |------------------------------------------------------------------|
 |                                                                  |
 | Software Engineer Focado No Ecossistema Java E Em Backend,       |
 | Direto Do Brasil.                                                |
 |                                                                  |
-| Construo APIs REST, Microsserviços E Tudo Que Envolve            |
+| Construo Microsserviços E Tudo Que Envolve                       |
 | Modelagem De Dados, Arquitetura E Boas Práticas.                 |
 |                                                                  |
 | Hoje Mergulhando Em Cloud, Containers, Automação De Deploy       |
@@ -32,7 +32,7 @@ o888ooooood8 `Y8bod88P"  `V88V"V8P' `Y888""8o d888b    `Y8bod88P" `Y8bod8P'   �
 '------------------------------------------------------------------'
 ```
 
-<img src="./assets/h-stack.svg" alt="01 STACK"/>
+<img src="./assets/h-stack.svg" alt="01 Stack"/>
 
 <img src="./assets/icons/java.svg" width="48" height="48" alt="Java" title="Java"/>&nbsp;
 <img src="./assets/icons/spring.svg" width="48" height="48" alt="Spring" title="Spring"/>&nbsp;
@@ -47,27 +47,30 @@ o888ooooood8 `Y8bod88P"  `V88V"V8P' `Y888""8o d888b    `Y8bod88P" `Y8bod8P'   �
 <img src="./assets/icons/kafka.svg" width="48" height="48" alt="Kafka" title="Kafka"/>&nbsp;
 <img src="./assets/icons/git.svg" width="48" height="48" alt="Git" title="Git"/>
 
-<img src="./assets/h-focus.svg" alt="02 NOW BUILDING"/>
+<img src="./assets/h-focus.svg" alt="02 Now Building"/>
 
 ```text
-eduardo@lafaiety ~ % cat focus.log
+
+Eduardo@Lafaiety ~ % Cat Focus.Log
+
 [ Main  ]  Java + Spring Boot
-[ Build ]  APIs REST & Arquitetura De Microsserviços
+[ Build ]  Arquitetura De Microsserviços
 [ Data  ]  Modelagem E Persistência De Dados
 [ Cloud ]  Docker · Kubernetes · AWS · Terraform
 [ Next  ]  Automação De Deploy & Orquestração
 ```
 
-<img src="./assets/h-contact.svg" alt="03 CONTACT"/>
+<img src="./assets/h-contact.svg" alt="03 Contact"/>
 
 <a href="https://www.linkedin.com/in/eduardolafaiety/"><img src="./assets/icons/linkedin.svg" width="48" height="48" alt="LinkedIn" title="LinkedIn"/></a>&nbsp;
 <a href="https://github.com/EduardoLafaiety"><img src="./assets/icons/github.svg" width="48" height="48" alt="GitHub" title="GitHub"/></a>&nbsp;
 <a href="mailto:deveducontato@gmail.com"><img src="./assets/icons/email.svg" width="48" height="48" alt="Email" title="Email"/></a>
 
 ```text
-eduardo@lafaiety ~ % exit
+
+Eduardo@Lafaiety ~ % Exit
 Logout
-Saving Session...Completed.
+Saving Session Completed.
 
 [Process Completed]█
 ```
